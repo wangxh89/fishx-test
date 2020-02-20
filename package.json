@@ -1,0 +1,39 @@
+{
+  "name": "fishx-desktop-base",
+  "version": "0.1.0",
+  "private": true,
+  "homepage": ".",
+  "scripts": {
+    "start": "fishx dev",
+    "build": "fishx build",
+    "test": "fishx test"
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  },
+  "dependencies": {
+    "@fishx/cli": "^2.0.21",
+    "@fishx/core": "latest",
+    "@fishx/plugins": "^0.1.24",
+    "@fishx/router": "^1.0.4",
+    "@fishx/utils": "0.0.7",
+    "@whalecloud/fdx": "^1.0.32",
+    "react": "^16.11.0",
+    "react-dom": "^16.11.0"
+  },
+  "devDependencies": {
+    "@types/react": "^16.9.9",
+    "@types/react-dom": "^16.9.2",
+    "@whalecloud/eslint-config": "^0.0.13",
+    "babel-plugin-import": "^1.12.2"
+  }
+}
